@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+  <header id="header">
+    <a href="#">
+      <img src="./img/logo.svg" alt="Logo image">
+    </a>
+    <nav id="nav">
+      <button aria-label="Open Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamb"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li aria-roledescription="Home"><a class="menu-link" href="#">Home</a></li>
+        <li><a class="menu-link" href="#">New</a></li>
+        <li><a class="menu-link" href="#">Popular</a></li>
+        <li><a class="menu-link" href="#">trending</a></li>
+        <li><a class="menu-link" href="#">Categories</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <div class="grid">
+      <picture>
+        <source media="(min-width: 600px)" srcset="./img/image-web-3-desktop.jpg">
+        <source media="(min-width:100px )" srcset="./img/image-web-3-mobile.jpg">
+        <img src="./img/image-web-3-desktop.jpg" alt="Web Image">
+      </picture>
+
+
+      <div class="future">
+        <h1 class="heading">The Bright
+          Future of
+          Web 3.0?</h1>
+        <div>
+          <p class="future-desc">We dive into the next evolution of the web that
+            caims to out the nower of the nattorms back
+            into the hands of the people. But is it really
+            fulfilling its promise?</p>
+          <a class="btn" href="#">read more</a>
+        </div>
+      </div>
+
+      <aside class="new">
+        <h2 class="new-heading">New</h2>
+        <a class="new-link" href="#">Hydrogen VS Electric Cars</a>
+        <p class="new-desc">Will hydrogen-tueled cars ever catch up
+          to EVs?</p>
+        <a class="new-link" href="#">The Downsides of Al Artistry</a>
+        <p class="new-desc">What are the possible adverse effects of
+          on-demand Al image generation?</p>
+        <a class="new-link" href="#">Is VC Funding Drying Up?</a>
+        <p class="new-desc">Private funding by VC firms is down 50%
+          YOY. We take a look at what that means.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="types">
+    <div class="types-console">
+      <div>
+        <img class="types-img" src="./img/image-retro-pcs.jpg" alt="pc retro">
+      </div>
+      <div class="types-desc">
+        <span class="number">01</span>
+        <a class="type-link" href="#">Reviving Retro PCs</a>
+        <p class="type-desc">What happens when old PCs
+          are given modern upgrades?</p>
+      </div>
+    </div>
+    <div class="types-console">
+      <div>
+        <img class="types-img" src="./img/image-top-laptops.jpg" alt="top Laptops">
+      </div>
+      <div class="types-desc">
+        <span class="number">02</span>
+        <a class="type-link" href="#">Top 10 Laptops of 2022</a>
+        <p class="type-desc">Our best nicks for various needs and budgets.</p>
+      </div>
+    </div>
+    <div class="types-console">
+      <div>
+        <img class="types-img" src="./img/image-gaming-growth.jpg" alt="gaming growth">
+      </div>
+      <div class="types-desc">
+        <span class="number">03</span>
+        <a class="type-link" href="#">The Growth of Gaming</a>
+        <p class="type-desc">How the pandemic has sparked fresh opportunities.</p>
+      </div>
+    </div>
+  </section>
+  <script src="./script.js"></script>
+</body>
+
+</html>
