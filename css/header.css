@@ -76,7 +76,7 @@
     display: block;
     width: 3rem;
     height: 0.3rem;
-    background: currentColor;
+     background-color: #000;
     margin-top: 0.5rem;
     transition: alls 0.3s;
     position: relative;
